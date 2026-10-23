@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{background:#0D1117;color:#E6EDF3;font-family:Inter,system-ui,sans-serif}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes grow{from{width:0}to{width:var(--w)}}
+.up{animation:up .5s ease both}
+.grow{animation:grow .9s cubic-bezier(.2,.8,.2,1) both}

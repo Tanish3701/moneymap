@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+tsconfig.tsbuildinfo
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+# never commit real statements or exports
+*.pdf
+*.xlsx
+*.xls
+*.csv
+.DS_Store
